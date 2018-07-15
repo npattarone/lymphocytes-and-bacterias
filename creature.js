@@ -1,5 +1,5 @@
 function Lymphocyte(world, x, y) {
-	this.network = new Architect.Perceptron(4, 25, 3);
+	this.network = new Architect.Perceptron(8, 25, 3);
 	this.world = world;
 	this.mass = .3;
 	this.maxspeed = 1.9;
